@@ -1,151 +1,86 @@
-Data Analytics Project – End-to-End Analysis & Dashboard
-📌 Overview
+# Data Analytics Project – End-to-End Analysis & Dashboard
 
-This project demonstrates an end-to-end data analytics workflow, covering data ingestion, exploratory data analysis (EDA), data cleaning, SQL analysis, dashboard development, and final reporting.
-The objective is to transform raw data into meaningful insights and present them through interactive dashboards and professional reports suitable for business and non-technical stakeholders.
+## 📌 Overview
+This project demonstrates an end-to-end **data analytics workflow**, covering data ingestion, exploratory data analysis (EDA), data cleaning, SQL analysis, dashboard development, and final reporting.  
+The objective is to transform raw data into meaningful insights and present them through **interactive dashboards and professional reports** suitable for business stakeholders.
 
-📊 Dataset
+---
 
-Source: [Add dataset source or description]
+## 📊 Dataset
+- **Source:** [Add dataset source or description]
+- **Format:** CSV / Excel
+- **Size:** [Number of rows and columns]
+- **Description:**  
+  The dataset contains structured data used to analyze trends, patterns, and key performance indicators relevant to the defined business problem.
 
-Format: CSV / Excel
+---
 
-Size: [Number of rows and columns]
+## 🛠 Tools & Technologies
+- **Python:** Pandas, NumPy, Matplotlib, Seaborn
+- **SQL:** PostgreSQL / MySQL / SQL Server
+- **Power BI:** Data modeling and visualization
+- **Gamma:** Presentation creation
+- **Jupyter Notebook**
+- **Git & GitHub**
 
-Description:
-The dataset contains structured data used to analyze trends, patterns, and key performance indicators relevant to the business problem.
+---
 
-🛠 Tools & Technologies
+## 🔄 Project Workflow
+1. **Data Loading**
+   - Loaded dataset using Python (Pandas)
+   - Verified schema, data types, and structure
 
-Python: Pandas, NumPy, Matplotlib, Seaborn
+2. **Exploratory Data Analysis (EDA)**
+   - Summary statistics and data distributions
+   - Missing value analysis
+   - Trend and outlier detection
+   - Initial insights and assumptions
 
-SQL: PostgreSQL / MySQL / SQL Server
+3. **Data Cleaning & Preparation**
+   - Handled missing and inconsistent values
+   - Removed duplicates
+   - Standardized column names and formats
+   - Created derived features where required
 
-Power BI: Data modeling and visualization
+4. **SQL Analysis**
+   - Loaded cleaned data into a relational database
+   - Executed SQL queries to:
+     - Aggregate metrics
+     - Perform joins across tables
+     - Identify trends and patterns
+     - Answer business-driven questions
 
-Gamma: Presentation creation
+5. **Dashboard Development**
+   - Built an interactive **Power BI dashboard**
+   - Designed KPIs and visuals for clarity
+   - Added filters and slicers for exploration
 
-Jupyter Notebook
+6. **Reporting & Presentation**
+   - Created a structured analytical report
+   - Designed a professional presentation using **Gamma**
+   - Focused on insights, impact, and recommendations
 
-Git & GitHub
+---
 
-🔄 Project Workflow
-1. Data Loading
+## 📈 Dashboard
+**Power BI Dashboard Highlights**
+- Key Performance Indicators (KPIs)
+- Time-based trend analysis
+- Category and segment comparisons
+- Interactive filters for deeper insights
 
-Loaded the dataset using Python (Pandas)
+---
 
-Verified schema, data types, and overall structure
+## 📌 Results & Insights
+- Identified key trends and performance drivers
+- Highlighted areas for improvement and opportunities
+- Delivered actionable, data-driven recommendations
 
-2. Exploratory Data Analysis (EDA)
+---
 
-Summary statistics and distributions
+## ▶️ How to Run the Project
 
-Missing value analysis
-
-Outlier detection
-
-Trend and correlation analysis
-
-3. Data Cleaning & Preparation
-
-Handled missing and inconsistent values
-
-Removed duplicate records
-
-Standardized column names and formats
-
-Created derived and calculated fields where required
-
-4. SQL Analysis
-
-Loaded cleaned data into a relational database
-
-Executed SQL queries to:
-
-Aggregate key metrics
-
-Perform joins across tables
-
-Identify trends and patterns
-
-Answer business-driven questions
-
-5. Dashboard Development
-
-Built an interactive Power BI dashboard
-
-Designed KPIs and visuals for clarity
-
-Implemented filters and slicers for data exploration
-
-6. Reporting & Presentation
-
-Created a structured analytical report
-
-Designed a professional presentation using Gamma
-
-Focused on insights, impact, and recommendations
-
-📈 Dashboard
-
-Power BI Dashboard Highlights
-
-Key Performance Indicators (KPIs)
-
-Time-based trend analysis
-
-Category and segment comparisons
-
-Interactive filters for deeper insights
-
-📌 Results & Insights
-
-Identified key trends and performance drivers
-
-Highlighted improvement opportunities
-
-Delivered clear, actionable, data-driven recommendations
-
-▶️ How to Run the Project
-1. Clone the Repository
+### 1. Clone the Repository
+```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-
-2. Install Dependencies
-pip install -r requirements.txt
-
-3. Run the Analysis
-
-Open analysis.ipynb in Jupyter Notebook
-
-Execute cells sequentially
-
-4. SQL Setup
-
-Import the cleaned dataset into PostgreSQL, MySQL, or SQL Server
-
-Run SQL scripts from the sql/ directory
-
-5. Power BI Dashboard
-
-Open the .pbix file in Power BI Desktop
-
-Refresh data connections if required
-
-📄 Deliverables
-
-Python notebooks for EDA and data cleaning
-
-SQL query scripts
-
-Power BI dashboard
-
-Analytical report
-
-Final presentation (Gamma)
-
-👤 Author
-
-Your Name
-Data Analyst | Python | SQL | Power BI
-[LinkedIn] | [Portfolio] | [Email]
