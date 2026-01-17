@@ -7,9 +7,8 @@ The objective is to transform raw data into meaningful insights and present them
 ---
 
 ## 📊 Dataset
-- **Source:** [Add dataset source or description]
+- **Source:** (https://github.com/Sandeep-2412/Customer_Behaviour_Analysis/blob/main/customer_shopping_behavior.csv)
 - **Format:** CSV / Excel
-- **Size:** [Number of rows and columns]
 - **Description:**  
   The dataset contains structured data used to analyze trends, patterns, and key performance indicators relevant to the defined business problem.
 
@@ -77,10 +76,32 @@ The objective is to transform raw data into meaningful insights and present them
 - Delivered actionable, data-driven recommendations
 
 ---
-
 ## ▶️ How to Run the Project
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the Analysis
+- Open analysis.ipynb in Jupyter Notebook
+- Execute cells sequentially
+### 4. SQL Setup
+- Import the cleaned dataset into PostgreSQL / MySQL / SQL Server
+- Run SQL scripts from the sql/ directory
+### 5. Power BI Dashboard
+- Open the .pbix file in Power BI Desktop
+- Refresh data connections if required
+## 📄 Deliverables
+- Python notebooks for EDA and data cleaning
+- SQL query scripts
+- Power BI dashboard
+- Analytical report
+- Final presentation (Gamma)
+### 👤 Author
+Venkata Sandeep Macha  
+Data Analyst | Python | SQL | Power BI  
